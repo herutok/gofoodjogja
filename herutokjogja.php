@@ -175,13 +175,13 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
          }else{
          echo color("red","-] OTP SALAH ");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("purple","!] MASULIN NOMER ULANG\n");
+         echo color("purple","!] MASUKIN NOMER ULANG\n");
          goto ulang;
          }
          }else{
-         echo color("red","-] Nomor udah keregist.");
+         echo color("red","-] Nomor udah terdaftar");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
-         echo color("purple","!] Coba Nomer Fresh Lainnya \n");
+         echo color("purple","!] Coba Nomor Fresh Lainnya \n");
          goto ulang;
          }
 //  }
